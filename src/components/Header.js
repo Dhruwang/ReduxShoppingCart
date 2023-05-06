@@ -1,5 +1,6 @@
 import React from "react";
 import Cart from "./Cart";
+import Logout from "./Logout";
 import "./Header.css";
 const Header = () => {
   return (
@@ -14,8 +15,9 @@ const Header = () => {
               Redux Shopping App
             </h2>
           </li>
-          <li>
+          <li className="header-li">
             <Cart />
+            <Logout />
           </li>
         </ul>
       </nav>

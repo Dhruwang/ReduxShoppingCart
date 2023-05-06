@@ -12,3 +12,12 @@
   font-family: monospace;
   font-size: 30px;
 }
+.header-li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+}
+.header-li>*{
+  margin: auto;
+}
